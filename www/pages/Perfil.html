@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/profile.css">
+    <title>Perfil</title>
+</head>
+<body onload="loadprofile();">
+    <div id="phone">
+        <div id="registrar">
+            <div class="title">
+                <h1 id="usuarioname">MI PERFIL</h1>
+            </div>
+            <div class="rates">
+                <i class="main"><input id="profilePIC" type='file' accept="image/*" style="opacity:0 "></input><img id="picture" ></i>
+                <p class="rate">50</p>
+                <p class="rate">1,000</p>
+                <p class="rate">1,920</p>
+            </div>
+            <div class="names">
+                <p class="ratename">Posts</p>
+                <p class="ratename2">Followers</p>
+                <p class="ratename3">Following</p>
+            </div>
+            <div class="name">
+                <h1 class="nameeidan"></h1>
+            </div>
+            <div class="details">
+                <p id="bio" class="detalles"></p>
+            </div>
+            <div id="line1" class="line1">
+                
+
+                </div>
+            <div class="bottom">
+                <img onclick="changehome();" class="home" src="https://www.newmarketequinesalttherapysystem.co.uk/wp-content/uploads/2018/06/home65.png" width="30">
+                <img class="edit" src="https://th.bing.com/th/id/R.95f755ad6012be82f8e20d3cb94c4277?rik=cOj%2f4MRUj6n70g&pid=ImgRaw&r=0" onclick="window.location.href = '../pages/editprofile.html';">
+                <img onclick="topost();" class="addpost" src="https://th.bing.com/th/id/R.6306575a3e180cbdd2965438474c140b?rik=Qhhb%2bwDQi7Wl5w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_228859.png&ehk=8VJgA1FQaXLdnBS6uMsvJ%2fJs0kjq81Z9UwMcdZV9aSc%3d&risl=&pid=ImgRaw&r=0" width="30">
+            </div>
+        </div>
+        </div>
+        <script src="../js/localdatabase.js"></script>
+        <script src="../js/perfil.js"></script>
+</body>
+</html>

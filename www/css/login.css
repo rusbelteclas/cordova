@@ -1,0 +1,96 @@
+#phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    margin-left: 0rem;
+}
+html {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#login{
+    margin-bottom: 4rem;
+}
+
+
+input[type="text"] {
+	position: absolute;
+	width: 280px;
+	height: 44px;
+	left: 40px;
+	top: 363px;
+	background: #F2F2F2;
+	border: hidden;
+
+}
+
+input[type="password"] {
+	position: absolute;
+	width: 280px;
+	height: 43px;
+	left: 40px;
+	top: 413px;
+	background: #F2F2F2;
+	border: hidden;
+}
+
+.inicia button {
+	position: absolute;
+	width: 285px;
+	height: 36px;
+	left: 40px;
+	top: 469px;
+	background: #0081CA;
+	border: 0;
+}
+
+.crear button {
+	position: absolute;
+	width: 282px;
+	height: 30px;
+	left: 40px;
+	top: 618px;
+	background: rgba(228, 228, 228, 0.76);
+	border: 0;
+}
+
+h1 {
+	position: absolute;
+	width: 182px;
+	height: 44px;
+	left: 103px;
+	top: 199px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000000;
+
+}
+
+p {
+	position: absolute;
+	width: 94px;
+	height: 15px;
+	left: 134px;
+	top: 103px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.58);
+
+}
+
+.error-login{
+	font-size: 19px;
+	color: rgb(99, 25, 83);
+	font-weight: bold;
+	text-align: center;
+	margin-top: 12px;
+  }

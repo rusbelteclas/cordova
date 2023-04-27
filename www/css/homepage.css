@@ -1,0 +1,265 @@
+#phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81vh;
+    margin-left: -8px;
+}
+html {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#login{
+    margin-bottom: 4rem;
+}
+
+.contenedor {
+    position: absolute;
+    display: flex;
+    width: 438px;
+    height: 852px;
+    background: #FFFFFF;
+
+}
+.title{
+    display: block;
+    width: 130px;
+    height: 35px;
+    margin-left: 94px;
+    margin-top: -278px;
+}
+.MAINPOSTS{
+    position: absolute;
+}
+.estados{
+    display: block;
+    margin-top: 6px;
+}
+.nombres{
+    display: block;
+    margin-top: -14px;
+}
+.stories{
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 352px;
+}
+h1 {
+    
+    font-family: 'Freehand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    color: #000000;
+}
+
+img.figura {
+    width: 33px;
+    height: 34px;
+    margin-left: 50px;
+}
+
+img.elipse {
+    width: 34px;
+    height: 31px;
+    margin-left: 20px;
+}
+
+img.ovalo {
+    width: 34px;
+    height: 31px;
+    margin-left: 20px;
+}
+
+img.circulo {
+    width: 34px;
+    height: 31px;
+    margin-left: 20px;
+}
+
+img.retrato {
+    width: 34px;
+    height: 31px;
+    margin-left: 20px;
+}
+
+img.loca {
+    width: 39px;
+    height: 38px;
+}
+
+img.lugar {
+    width: 306px;
+    height: 384px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.tuhistoria{
+    width: 66px;
+    height: 2px;
+    font-family: 'Freehand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    display: inline-block;
+    margin-left: 30px;
+}
+.aly{
+    width: 66px;
+    height: 2px;
+    font-family: 'Freehand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    display: inline-block;
+    margin-left: 6px;
+}
+.bry{
+    width: 66px;
+    height: 2px;
+    font-family: 'Freehand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    display: inline-block;
+    margin-left: -10px;
+}
+.oso{
+    width: 66px;
+    height: 2px;
+    font-family: 'Freehand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    display: inline-block;
+    margin-left: -11px;
+}
+.saul{
+    width: 66px;
+    height: 2px;
+    font-family: 'Freehand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    display: inline-block;
+    margin-left: -9px;
+}
+h3 {
+    position: absolute;
+    width: 177px;
+    height: 20px;
+    left: 87px;
+    top: 190px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+.house{
+    display:inline-block;
+    margin-left: 35px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.plus{
+    display:inline-block;
+    margin-left: 71px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.person{
+    display:inline-block;
+    margin-left: 74px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.headpost{
+    margin-top: 0.5rem;
+    width: 360px;
+    height: 50px;
+    background: #D9D9D9;
+    display:inline-block;
+}
+.headprofile{
+    background: white;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius:50%;
+    display:inline-block;
+    height: 35px;
+    width: 35px;
+    border: solid 1px;
+}
+.headprofile2 img{
+    background: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius:50%;
+    display:inline-block;
+    height: 35px;
+    width: 35px;
+    border: solid 1px;
+}
+.headuser{
+    margin-left: 2.8rem;
+    margin-top: -2rem;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.post{
+    width: 360px;
+    height: 190px;
+}
+.bottompost{
+    width: 360px;
+    height: 60px;
+    background: #D9D9D9;
+    margin-bottom: 10px;
+}
+.bottompostlast{
+    width: 360px;
+    height: 100px;
+    background: #D9D9D9;
+}
+.signout{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-top: -48px;
+    margin-left: 183px;
+}
+.options{
+    width: 360px;
+    height: 49px;
+    background: #D9D9D9;
+    position: fixed;
+    bottom: 0;
+    display: block;
+}

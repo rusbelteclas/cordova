@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/editar.css">
+    <title>PUBLICAR1</title>
+</head>
+<body onload="datos();">
+    <div id="phone">
+        <div id="login">
+            <div class="top">
+                <img onclick="window.location.href = '../pages/Perfil.html';" class="equiz" src="https://th.bing.com/th/id/R.3ce100a95c2c36b52db406cf1be06943?rik=kdycEKrJHmv7Tg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_376308.png&ehk=J3fNGglWWQu5Y3%2fUU9y%2f6%2fLO%2bFqR4pAZRMfS%2fX1u6PQ%3d&risl=&pid=ImgRaw&r=0" width="30">
+                <h1>Editar perfil</h1>
+                <p class="next" id="btn">next</p>
+            </div>
+            <input id="editfoto" type='file' id="imagenes" accept="image/*">
+            <div class="content">
+                <p class="edit">Editar tu nombre de perfil</p>
+                <input type="text" id="Nombre" class="pie">
+                <p class="edit">Editar lo que dice tu bio</p>
+                <input type="text" id="bio" class="pie">
+            </div>
+        </div>
+        </div>
+        <script src="../js/localdatabase.js"></script>
+        <script src="../js/editperfil.js"></script>
+</body>
+</html>
